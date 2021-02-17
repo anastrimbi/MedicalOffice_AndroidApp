@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cabinetmedicinadefamiliefericita">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cadremedicale.CadreMedicaleActivity" />
+        <activity android:name=".cadremedicale.AdaugaCadruMedicalActivity" />
+        <activity android:name=".cadremedicale.EditareCadruMedicalActivity" />
+        <activity android:name=".pacienti.PacientiActivity" />
+        <activity android:name=".pacienti.AdaugaPacientActivity" />
+        <activity android:name=".pacienti.EditarePacientActivity" />
+        <activity android:name=".consultatii.ConsultatiiActivity" />
+        <activity android:name=".consultatii.AdaugaConsultatieActivity" />
+        <activity android:name=".analize.AnalizeActivity" />
+        <activity android:name=".analize.AdaugaAnalizaActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>

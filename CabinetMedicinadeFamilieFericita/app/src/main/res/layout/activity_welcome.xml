@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_background"
+    android:gravity="center"
+    tools:context=".WelcomeActivity" >
+
+
+    <Button
+        android:id="@+id/welcome_cadreMedicale_btn"
+        android:layout_width="111dp"
+        android:layout_height="130dp"
+        android:background="@drawable/roundedbtn"
+        android:drawableTop="@drawable/welcome_cadremedicale2_icon"
+
+        android:text="@string/cadre_medicale"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/welcome_pacienti_btn"
+        android:layout_width="104dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtn"
+        android:drawableBottom="@drawable/welcome_pacienti_icon"
+        android:text="@string/pacienti"
+        app:layout_constraintBottom_toTopOf="@id/welcome_consultatii_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <Button
+        android:id="@+id/welcome_consultatii_btn"
+        android:layout_width="104dp"
+        android:layout_height="129dp"
+        android:background="@drawable/roundedbtn"
+        android:drawableBottom="@drawable/welcome_consultatii_icon"
+        android:text="@string/consultatii"
+        app:layout_constraintBottom_toTopOf="@id/welcome_analize_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_pacienti_btn"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/welcome_analize_btn"
+        android:layout_width="104dp"
+        android:layout_height="129dp"
+        android:background="@drawable/roundedbtn"
+        android:drawableBottom="@drawable/welcome_analize_icon"
+        android:text="@string/analize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_consultatii_btn" />
+
+    <TextView
+        android:id="@+id/welcome_o_zi_cu_san"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/o_zi_cu_s_n_tate"
+        android:textColor="#F9A602"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toTopOf="@+id/welcome_pacienti_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_welcome_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="60dp"
+        android:clickable="true"
+        android:contentDescription="@string/settings"
+        android:focusable="true"
+        app:backgroundTint="#DDFF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_analize_btn"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_welcome_about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/about_us"
+        app:backgroundTint="#DDFF9800"
+        app:layout_constraintBottom_toTopOf="@+id/fab_welcome_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

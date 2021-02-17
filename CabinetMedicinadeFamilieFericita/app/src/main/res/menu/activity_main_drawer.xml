@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- adaugati <item> pentru fiecare optiune pe care o doriti in meniul lateral-->
+        <item
+            android:id="@+id/main_nav_home"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="TODO+res" />
+    </group>
+</menu>

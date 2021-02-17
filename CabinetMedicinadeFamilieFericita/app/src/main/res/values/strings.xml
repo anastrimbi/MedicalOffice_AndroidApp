@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Cabinet Medicina de Familie Fericita</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="cadre_medicale">Cadre Medicale</string>
+    <string name="pacienti">Pacienti</string>
+    <string name="consultatii">Consultatii</string>
+    <string name="analize">Analize</string>
+    <string name="o_zi_cu_s_n_tate">O zi cu sănătate!</string>
+    <string name="nume">Nume</string>
+    <string name="url_poza">URL poza</string>
+    <string name="grad_cadru_medical">Grad cadru medical</string>
+    <string name="gen">Gen</string>
+    <string name="salveaza">Salvează!</string>
+    <string name="id_analiza">Id Analiză</string>
+    <string name="completati_id_ul_analizei_efectuate">Completați id-ul analizei efectuate</string>
+    <string name="completati_id_ul_asistentului">Completați id-ul asistentului</string>
+    <string name="completati_toate_campurile_cerute">Completati toate campurile cerute!</string>
+    <string name="testul_efectuat">Testul efectuat:</string>
+    <string name="salveaza_analiza">Salvează analiză</string>
+    <string name="invalid_id_asistent_camp_error">Id-ul asistentului trebuie sa fie un numar pozitiv!</string>
+    <string name="invalid_id_pacient_camp_error">Id-ul pacientului trebuie sa fie un numar pozitiv!</string>
+    <string name="cadru_medical_adaugare_text_gol">Toate campurile sunt obligatorii in afara de poza, numele > 5!</string>
+
+    <string name="medici">Medici</string>
+    <string name="asistenti">Asistenti</string>
+    <string name="nume_medic">Nume medic</string>
+    <string name="tip_medic">Tip medic</string>
+    <string name="raport_consultatii">Raport consultatii</string>
+
+
+    <string name="Asistent">Asistent</string>
+    <string name="MedicPrimar">Medic Primar</string>
+    <string name="MedicSpecialist">Medic Specialist</string>
+    <string name="F">Feminin</string>
+    <string name="M">Masculin</string>
+    <string name="Sange">Sange</string>
+    <string name="Urina">Urina</string>
+    <string name="ExudatFaringian">Exudat Faringian</string>
+    <string name="EvaluareInitiala">Evaluare Initiala</string>
+    <string name="Control">Control</string>
+
+
+    <string name="adauga_pacient_empty_text">Toate câmpurile trebuie completate: lungimea numelui > 5, CNP de 10 caractere, varsta: 0-100!</string>
+    <string name="selectati_data_analizei">Selectați data analizei:</string>
+    <string name="selectati_ora_analizei">Selectați ora analizei:</string>
+    <string name="nume_pacient">Nume pacient</string>
+    <string name="cnp_pacient">CNP pacient</string>
+    <string name="varsta_pacientului">Vârsta pacientului</string>
+    <string name="adauga_cadru_medical">Adaugă cadru medical</string>
+    <string name="raport_analize">Raport analize</string>
+    <string name="nume_asistent">Nume asistent</string>
+    <string name="selectati_asistentul">Selectați asistentul:</string>
+    <string name="selectati_pacientul">Selectați pacientul:</string>
+    <string name="selecta_i_medicul">Selectați medicul:</string>
+    <string name="selecta_i_data_consulta_iei">Selectați data consultației:</string>
+    <string name="selecta_i_ora_consulta_iei">Selectați ora consultației:</string>
+    <string name="tipul_consulta_iei">Tipul consultației:</string>
+    <string name="salveaz_consulta_ia">Salvează consultația</string>
+    <string name="lv_row_fara_text">-</string>
+
+
+    <string name="id_ul_pacientului">Id-ul pacientului:</string>
+    <string name="id_ul_pacientului_completat">Id-ul pacientului completat</string>
+    <string name="id_ul_asistentului">Id-ul asistentului:</string>
+    <string name="id_ul_asistentului_completat">Id-ul asistentului completat</string>
+    <string name="raport_analize_BTN">RAPORT ANALIZE</string>
+    <string name="testul_efectuat_completat">Testul efectuat completat</string>
+    <string name="cadru_medical_medic_adaugat">Un nou medic a fost adaugat!</string>
+    <string name="cadru_medical_asistent_adaugat">Un nou asistent a fost adaugat!</string>
+    <string name="nume_pacient_completat">Nume pacient completat</string>
+    <string name="cnp_pacient_completat">CNP pacient completat</string>
+    <string name="gen_pacient">Gen pacient</string>
+    <string name="gen_pacient_completat">Gen pacient completat</string>
+    <string name="id_ul_medicului">Id-ul medicului:</string>
+    <string name="id_ul_medicului_comletat">Id-ul medicului comletat</string>
+    <string name="data_si_ora_consultatiei">Data și ora consultației:</string>
+    <string name="data_si_ora_consultatiei_completate">Data și ora consultației completate</string>
+    <string name="tipul_consultatiei_completat">Tipul consultației completat</string>
+    <string name="cadru_medical_medic_actualizat">Datele medicului au fost actualizate!</string>
+    <string name="cadru_medical_asistent_actualizat">Datele asistentului au fost actualizate!</string>
+
+    <string name="raport_consultatii_caps">RAPORT CONSULTATII</string>
+    <string name="nume_prenume_tip_cadru_medical">Nume Prenume, Tip Cadru Medical</string>
+    <string name="evaluari_initiale_0">Evaluari initiale: 0</string>
+    <string name="controale_0">Controale: 0</string>
+    <string name="inchide_raportul">Inchide raportul</string>
+
+    <string name="raport_date_cadru_medical">%1$s, %2$s</string>
+    <string name="raport_evaluari_initiale">Evaluari initiale: %1$d</string>
+    <string name="raport_controale">Controale: %1$d</string>
+    <string name="raport_sange">Sange: %1$d</string>
+    <string name="raport_urina">Urina: %1$d</string>
+    <string name="raport_exudat_faringian">Exudat faringian: %1$d</string>
+    <string name="raport_analize_caps">RAPORT ANALIZE</string>
+    <string name="sange_0">Sange: 0</string>
+    <string name="urina_0">Urina: 0</string>
+    <string name="exudat_faringian_0">Exudat faringian: 0</string>
+
+    <string name="adaug_analiz">Adaugă analiză</string>
+    <string name="adaug_consulta_ie">Adaugă consultație</string>
+    <string name="adaug_pacient">Adaugă pacient</string>
+    <string name="numele_medicului">Numele medicului</string>
+    <string name="numele_pacientului">Numele pacientului:</string>
+    <string name="numele_medicului_completat">Numele medicului completat:</string>
+    <string name="numele_pacientului_completat">Numele pacientului completat:</string>
+    <string name="numele_asistentului">Numele asistentului:</string>
+    <string name="numele_asistentului_completat">Numele asistentului completat</string>
+    <string name="about_us">About us</string>
+    <string name="settings">Settings</string>
+    <string name="set_rile_pentru_nregistr_rile_sesiunii">Setările pentru înregistrările sesiunii</string>
+    <string name="sunt_permise_program_ri_pentru_weekend">Sunt permise programări pentru weekend?</string>
+    <string name="pacien_ii_cu_v_rsta_de_peste_70_de_ani_pot_fi_consulta_i_doar_de_un_medic_primar">Pacienții cu vârsta de peste 70 de ani pot fi consultați doar de un medic primar?</string>
+    <string name="ora_maxim_de_recoltare_predare_probe_biologice">Ora maximă de recoltare/predare probe biologice:</string>
+    <string name="settings_hint_11">11</string>
+    <string name="despre_noi">DESPRE NOI</string>
+    <string name="date_contact_cabinet">Date contact cabinet</string>
+    <string name="contact">Contact:</string>
+    <string name="adresa_cabinetului">Adresa cabinetului</string>
+    <string name="adresa">Adresa:</string>
+    <string name="descrierea_cabinetului">Descrierea cabinetului</string>
+    <string name="descriere">Descriere:</string>
+    <string name="numele_cabinetului">Numele cabinetului</string>
+    <string name="nume_cabinet">Nume:</string>
+    <string name="settings_save">Setarea a fost salvata!</string>
+    <string name="consultatie_adaugata">Consultatia a fost adaugata!</string>
+    <string name="analiza_adaugata">Analiza a fost adaugata!</string>
+</resources>

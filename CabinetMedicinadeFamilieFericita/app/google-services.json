@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617556531874",
+    "project_id": "cabinetfamiliafericita",
+    "storage_bucket": "cabinetfamiliafericita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617556531874:android:b6350fdfa98f3c0de615fb",
+        "android_client_info": {
+          "package_name": "com.example.cabinetmedicinadefamiliefericita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617556531874-df44sm47u1va8a9ml9u56b418a57pe66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOnVlboKlc_fh85YMzOWCXttQuuGculLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617556531874-df44sm47u1va8a9ml9u56b418a57pe66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

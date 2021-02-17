@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lv_row_pacient_bg_color"
+    app:flow_horizontalAlign="center" >
+
+    <ImageView
+        android:id="@+id/lv_row_pacienti_iv"
+        android:layout_width="76dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/pacienti"
+        android:src="@drawable/welcome_pacienti_icon"
+        app:layout_constraintBottom_toTopOf="@id/lv_row_pacienti_settings_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/lv_row_pacienti_settings_iv"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="25dp"
+        android:focusable="false"
+        android:src="@drawable/edit_icon"
+        app:layout_constraintTop_toBottomOf="@id/lv_row_pacienti_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/lv_row_nume_pacient"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/nume_pacient"
+        app:layout_constraintBottom_toTopOf="@+id/lv_row_cnp_pacient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_pacienti_iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_row_nume_pacient_completat"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/nume_pacient_completat"
+        app:layout_constraintBottom_toTopOf="@+id/lv_row_cnp_pacient_completat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_nume_pacient"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_row_cnp_pacient"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cnp_pacient"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_pacienti_iv"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_nume_pacient" />
+
+    <TextView
+        android:id="@+id/lv_row_cnp_pacient_completat"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cnp_pacient_completat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_nume_pacient"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_nume_pacient_completat" />
+
+    <TextView
+        android:id="@+id/lv_row_gen_pacient"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/gen_pacient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_pacienti_iv"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_cnp_pacient" />
+
+    <TextView
+        android:id="@+id/lv_row_gen_pacient_completat"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/gen_pacient_completat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_nume_pacient"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_cnp_pacient_completat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

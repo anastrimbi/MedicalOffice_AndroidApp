@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="whiteText">#FFFFFF</color>
+    <color name="lv_row_medic_bg_color">#4535E8E1</color>
+    <color name="lv_row_asistent_bg_color">#DDFF9800</color>
+    <color name="lv_row_analize_bg_color">#ADD557DF</color>
+    <color name="lv_row_pacient_bg_color">#AD2DC60B</color>
+    <color name="lv_row_consultatie_bg_color">#BDAB04</color>
+
+    <color name="fragment_raport_consultatii_evaluari">#FF9800</color>
+    <color name="fragment_raport_consultatii_controale">#4CAF50</color>
+    <color name="fragment_raport_consultatii_bgcolor">#FFFFFF</color>
+    <color name="fragment_raport_analize_sange">#A50A0A</color>
+    <color name="fragment_raport_analize_urina">#FFEB3B</color>
+    <color name="fragment_raport_analize_exudat">#054315</color>
+
+    <color name="startButton">#2B547E</color>
+    <color name="settings">#FFFFE0</color>
+</resources>

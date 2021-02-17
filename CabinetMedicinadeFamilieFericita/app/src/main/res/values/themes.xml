@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.CadreMedicale" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="pageBackground">@style/Background_cadrumedical</item>
+        <item name="textRegular">@style/MainTextRegular</item>
+    </style>
+
+    <style name="Theme.Pacienti" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="pageBackground">@style/Background_pacient</item>
+        <item name="textRegular">@style/MainTextRegular</item>
+    </style>
+</resources>

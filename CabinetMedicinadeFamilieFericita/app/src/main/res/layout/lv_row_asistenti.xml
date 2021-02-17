@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lv_row_asistent_bg_color">
+    
+    <ImageView
+        android:id="@+id/lv_row_asistenti_asistent_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/asistenti"
+        android:src="@drawable/welcome_asistenti_icon"
+        app:layout_constraintBottom_toTopOf="@id/lv_row_nume_asistent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_row_nume_asistent"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/nume_asistent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lv_row_asistenti_asistent_iv" />
+
+    <Button
+        android:id="@+id/lv_row_asistenti_raport_analize_btn"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="false"
+        android:text="@string/raport_analize"
+        android:textSize="12sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/lv_row_asistenti_settings_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_nume_asistent" />
+
+    <ImageView
+        android:id="@+id/lv_row_asistenti_settings_iv"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:focusable="false"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/medici"
+        android:src="@drawable/edit_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lv_row_asistenti_raport_analize_btn"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

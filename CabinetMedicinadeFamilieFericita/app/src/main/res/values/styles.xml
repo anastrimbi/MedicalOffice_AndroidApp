@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Background_cadrumedical">
+        <item name="android:background">@drawable/gradient_cadru_medical</item>
+    </style>
+
+    <style name="Background_pacient">
+        <item name="android:background">@drawable/gradient_pacient</item>
+    </style>
+
+    <style name="MainTextRegular">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+    </style>
+
+    <style name="ordinary_rounded_blue_button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">@dimen/start_button_height</item>
+        <item name="android:textColor">#E5E5FF</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ordinary_button</item>
+    </style>
+
+</resources>

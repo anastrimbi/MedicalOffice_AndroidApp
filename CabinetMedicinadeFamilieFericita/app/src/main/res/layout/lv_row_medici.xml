@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lv_row_medic_bg_color"
+    app:flow_horizontalAlign="center" >
+
+    <ImageView
+        android:id="@+id/lv_row_medici_medic_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/medici"
+        android:src="@drawable/welcome_cadremedicale_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_row_nume_medic"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/nume_medic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_medici_medic_iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_row_tip_medic"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tip_medic"
+        app:layout_constraintBottom_toTopOf="@+id/lv_row_medic_raport_consultatii_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_medici_medic_iv"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_nume_medic" />
+
+    <Button
+        android:id="@+id/lv_row_medic_raport_consultatii_btn"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="false"
+        android:text="@string/raport_consultatii"
+        android:textSize="12sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/lv_row_medici_settings_iv"
+        app:layout_constraintStart_toEndOf="@+id/lv_row_medici_medic_iv"
+        app:layout_constraintTop_toBottomOf="@+id/lv_row_tip_medic" />
+
+    <ImageView
+        android:id="@+id/lv_row_medici_settings_iv"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="false"
+        android:contentDescription="@string/medici"
+        android:src="@drawable/edit_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lv_row_medic_raport_consultatii_btn"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

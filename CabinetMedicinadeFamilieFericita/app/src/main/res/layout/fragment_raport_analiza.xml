@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="@color/fragment_raport_consultatii_bgcolor"
+    tools:context=".fragments.RaportConsultatieDialogFragment">
+
+    <TextView
+        android:id="@+id/fragment_raport_analize_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/raport_analize_caps"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fragment_raport_analize_dateMedic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nume_prenume_tip_cadru_medical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="@color/lv_row_asistent_bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_raport_analize_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/fragment_raport_analize_totalSange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/whiteText"
+        android:background="@color/fragment_raport_analize_sange"
+        android:text="@string/sange_0"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/fragment_raport_analize_dateMedic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/fragment_raport_analize_totalUrina"/>
+
+    <TextView
+        android:id="@+id/fragment_raport_analize_totalUrina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/fragment_raport_analize_urina"
+        android:text="@string/urina_0"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@id/fragment_raport_analize_dateMedic"
+        app:layout_constraintStart_toEndOf="@id/fragment_raport_analize_totalSange"
+        app:layout_constraintEnd_toStartOf="@id/fragment_raport_analize_totalExudat"
+        />
+
+    <TextView
+        android:id="@+id/fragment_raport_analize_totalExudat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/fragment_raport_analize_exudat"
+        android:text="@string/exudat_faringian_0"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/whiteText"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@id/fragment_raport_analize_dateMedic"
+        app:layout_constraintStart_toEndOf="@id/fragment_raport_analize_totalUrina"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
